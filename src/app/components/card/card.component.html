@@ -1,0 +1,35 @@
+<div class="card">
+    <div class="card-header">
+      <h1>User Information</h1>
+    </div>
+    <div class="card-body">
+      <div *ngIf="user">
+        <div class="user-info">
+          <div>
+            <strong>Name:</strong> {{ user.name.first }} {{ user.name.last }}
+          </div>
+          <div>
+            <strong>Email:</strong> {{ user.email }}
+          </div>
+          <div>
+            <strong>Gender:</strong> {{ user.gender }}
+          </div>
+          <div>
+            <strong>Location:</strong> {{ user.location.city }}, {{ user.location.country }}
+          </div>
+          <div>
+            <strong>Phone:</strong> {{ user.phone }}
+          </div>
+          <div>
+            <strong>Registered:</strong> {{ user.registered.date | date }}
+          </div>
+          <div>
+            <img [src]="user.picture.large" alt="User Image">
+          </div>
+        </div>
+      </div>
+      <div *ngIf="!user">
+        Loading...
+      </div>
+    </div>
+  </div>
