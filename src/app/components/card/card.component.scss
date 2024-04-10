@@ -1,7 +1,9 @@
+@import "../../../styles/variables.module.scss";
+
 .user-info {
-  background-color: #f2f2f2;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: $backgroundColor;
+  border: 1px solid $secondaryBtnBorderColor;
+  border-radius: $border-radius;
+  padding: $spacing-xs;
+  box-shadow: $box-shadow;
 }
