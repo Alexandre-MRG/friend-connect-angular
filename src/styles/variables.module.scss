@@ -1,0 +1,42 @@
+// Color
+$mainColor: #ff9900;
+$backgroundColor: #ffebce;
+
+$mainTextColor: #2f281e;
+$secondaryTextColor: #544837;
+
+$linkColor: #2f281e;
+
+$secondaryBtnBorderColor: #bcd0e5;
+$secondaryBtnColor: #173a56;
+
+$featureColorA: #7752be;
+$featureColorB: #fab005;
+$featureColorC: #f03e3d;
+$featureColorD: #4dadf7;
+
+// Space between components & sections
+$spacing-s: 1rem;
+$spacing-m: 2rem;
+$spacing-l: 3rem;
+$spacing-xl: 4rem;
+
+:export {
+  mainColor: $mainColor;
+  backgroundColor: $backgroundColor;
+
+  linkColor: $linkColor;
+
+  secondaryBtnBorderColor: $secondaryBtnBorderColor;
+  secondaryBtnColor: $secondaryBtnColor;
+
+  featureColorA: $featureColorA;
+  featureColorB: $featureColorB;
+  featureColorC: $featureColorC;
+  featureColorD: $featureColorD;
+
+  spacing-s: $spacing-s;
+  spacing-m: $spacing-m;
+  spacing-l: $spacing-l;
+  spacing-xl: $spacing-xl;
+}
