@@ -1,10 +1,10 @@
-// Color
+// Colors
 $mainColor: #ff9900;
 $backgroundColor: #ffebce;
 
 $mainTextColor: #2f281e;
-$secondaryTextColor: #544837;
 
+$secondaryTextColor: #544837;
 $linkColor: #2f281e;
 
 $secondaryBtnBorderColor: #bcd0e5;
@@ -16,14 +16,22 @@ $featureColorC: #f03e3d;
 $featureColorD: #4dadf7;
 
 // Space between components & sections
+$spacing-xs: 0.625rem;
 $spacing-s: 1rem;
 $spacing-m: 2rem;
 $spacing-l: 3rem;
 $spacing-xl: 4rem;
 
+// Border radius & box shadow
+$border-radius: 0.25rem;
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 :export {
   mainColor: $mainColor;
   backgroundColor: $backgroundColor;
+
+  mainTextColor: $mainTextColor;
+  secondaryTextColor: $secondaryTextColor;
 
   linkColor: $linkColor;
 
@@ -35,8 +43,12 @@ $spacing-xl: 4rem;
   featureColorC: $featureColorC;
   featureColorD: $featureColorD;
 
+  spacing-xs: $spacing-xs;
   spacing-s: $spacing-s;
   spacing-m: $spacing-m;
   spacing-l: $spacing-l;
   spacing-xl: $spacing-xl;
+
+  borderRadius: $border-radius;
+  boxShadow: $box-shadow;
 }
