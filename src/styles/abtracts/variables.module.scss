@@ -27,21 +27,21 @@ $border-radius: 0.25rem;
 $box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
 :export {
-  mainColor: $mainColor;
-  backgroundColor: $backgroundColor;
+  main-color: $mainColor;
+  background-color: $backgroundColor;
 
-  mainTextColor: $mainTextColor;
-  secondaryTextColor: $secondaryTextColor;
+  main-text-color: $mainTextColor;
+  secondary-text-color: $secondaryTextColor;
 
-  linkColor: $linkColor;
+  link-color: $linkColor;
 
-  secondaryBtnBorderColor: $secondaryBtnBorderColor;
-  secondaryBtnColor: $secondaryBtnColor;
+  secondary-btn-border-color: $secondaryBtnBorderColor;
+  secondary-btn-color: $secondaryBtnColor;
 
-  featureColorA: $featureColorA;
-  featureColorB: $featureColorB;
-  featureColorC: $featureColorC;
-  featureColorD: $featureColorD;
+  feature-color-a: $featureColorA;
+  feature-color-b: $featureColorB;
+  feature-color-c: $featureColorC;
+  feature-color-d: $featureColorD;
 
   spacing-xs: $spacing-xs;
   spacing-s: $spacing-s;
@@ -49,6 +49,6 @@ $box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   spacing-l: $spacing-l;
   spacing-xl: $spacing-xl;
 
-  borderRadius: $border-radius;
-  boxShadow: $box-shadow;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
 }
