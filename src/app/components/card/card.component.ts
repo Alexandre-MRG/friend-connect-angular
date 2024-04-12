@@ -1,26 +1,26 @@
 import { CommonModule } from '@angular/common';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { UserService } from '../../services/user.service';
+import { HttpClientModule } from '@angular/common/http';
+import { User } from '../../types/user.types';
+import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-card',
   standalone: true,
   imports: [CommonModule, HttpClientModule],
+  providers: [UserService],
   templateUrl: './card.component.html',
   styleUrl: './card.component.scss'
 })
 export class CardComponent implements OnInit {
-  user: any; // Define a property to store the user data
+  currentUser: User | undefined;
+  userSubscription: Subscription | undefined;
 
-  constructor(private http: HttpClient) { }
+  constructor(private userService: UserService) { }
 
   ngOnInit(): void {
-    this.fetchUserData();
-  }
-
-  fetchUserData(): void {
-    this.http.get('https://randomuser.me/api/?results=1')
-      .subscribe((response: any) => {
-        this.user = response.results[0]; // Assign the first user from the API response to the user property
-      });
+    this.userSubscription = this.userService.fetchUserData(1).subscribe((user: User[]) => {
+      this.currentUser = user[0];
+    });
   }
 }
