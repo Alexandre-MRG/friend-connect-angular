@@ -1,4 +1,4 @@
-import { User } from "./user.types";
+import { User } from "./user.model";
 
 export interface ApiResponse {
   results: User[];

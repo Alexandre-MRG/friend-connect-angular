@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
-import { UserService } from '../../services/user.service';
 import { HttpClientModule } from '@angular/common/http';
-import { User } from '../../types/user.types';
+import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
+import { User } from '../../models/user.model';
+import { UserService } from '../../services/user.service';
+
 @Component({
   selector: 'app-card',
   standalone: true,
