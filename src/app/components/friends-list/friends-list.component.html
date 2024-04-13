@@ -1,0 +1,16 @@
+<div class="friends-list-header">
+  <h1>Friends List</h1>
+</div>
+<div class="friends-list-container">
+  <div *ngFor="let user of users">
+    <div class="friend-card">
+      <img [src]="user.picture.medium" alt="Friend Avatar" class="avatar">
+
+      <div class="friend-description">
+        <h3>{{ user.name.first }}</h3>
+        <p>{{ user.location.city }}, {{ user.location.country }}</p>
+        <a href="mailto:{{ user.email }}"><p><em>{{ user.email }}</em></p></a>
+      </div>
+    </div>
+  </div>
+</div>

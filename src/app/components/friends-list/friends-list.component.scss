@@ -1,0 +1,42 @@
+@import "../../../styles/main.module.scss";
+
+.friends-list-container {
+  height: 670px; /* Set the desired height */
+  overflow-y: auto; /* Enable vertical scrolling if necessary */
+  border: 1px solid $secondaryBtnBorderColor;
+  border-radius: $border-radius;
+}
+
+.friend-card {
+  display: flex;
+  align-items: center;
+  padding: $spacing-s;
+  border: 1px solid $secondaryBtnBorderColor;
+  border-radius: $border-radius;
+  background-color: $backgroundColor;
+}
+
+.friend-card img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-right: $spacing-s;
+}
+
+.friend-card .name {
+  font-weight: bold;
+}
+
+.friend-card .status {
+  color: #888;
+}
+
+.friend-description {
+  display: flex;
+  flex-direction: column;
+
+  p,
+  h3 {
+    margin: 0;
+  }
+}
