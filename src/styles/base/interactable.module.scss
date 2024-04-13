@@ -1,0 +1,20 @@
+@import "../abtracts/variables.module.scss";
+
+a {
+  color: $linkColor;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: $linkColor;
+  text-decoration: none;
+  font-weight: normal; // "none" is not a valid font-weight value
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 1;
+}
