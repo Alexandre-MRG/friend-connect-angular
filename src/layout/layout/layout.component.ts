@@ -7,6 +7,4 @@ import { Component } from '@angular/core';
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.scss'
 })
-export class LayoutComponent {
-children: any;
-}
+export class LayoutComponent {}
