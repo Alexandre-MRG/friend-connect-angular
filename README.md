@@ -12,14 +12,14 @@ To run this project locally, follow these steps:
 4. Start the development server: `npm start`
 5. Open your browser and visit: `http://localhost:4200`
 
-## Technical Details:
+## Technical Details
 
 - **Framework:** Angular
 - **Third-party Libraries:** Google Maps API, Font Awesome
 - **Styling:** SCSS for enhanced styling and theming
 - **Linting:** ESLint for code quality checks and adherence to coding standards
 
-## Key Features:
+## Key Features
 
 1. **Google Maps Integration:** Seamlessly integrates Google Maps API to display user locations and provide an interactive mapping experience.
   
