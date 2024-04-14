@@ -6,6 +6,9 @@
     <div *ngIf="currentUser">
     <div class="user-info">
       <div>
+        <img [src]="currentUser.picture.large" alt="User Image">
+      </div>
+      <div>
       <strong>Name:</strong> {{ currentUser.name.first }} {{ currentUser.name.last }}
       </div>
       <div>
@@ -22,9 +25,6 @@
       </div>
       <div>
       <strong>Registered:</strong> {{ currentUser.registered.date | date }}
-      </div>
-      <div>
-      <img [src]="currentUser.picture.large" alt="User Image">
       </div>
     </div>
     </div>
