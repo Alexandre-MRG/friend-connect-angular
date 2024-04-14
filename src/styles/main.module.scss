@@ -1,3 +1,7 @@
 @import "./abtracts/variables.module.scss";
 @import "./base/interactable.module.scss";
 @import "./base/scrollbar.module.scss";
+
+.fill-parent {
+  width: -webkit-fill-available;
+}

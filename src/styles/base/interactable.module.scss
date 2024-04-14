@@ -11,10 +11,25 @@ a:hover {
   font-weight: normal;
 }
 
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: $spacing-xs;
+  font-size: 16px;
+  font-weight: bold;
+  color: $mainTextColor;
+  background-color: rgba($mainColor, 0.8);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
 button:hover {
-  opacity: 0.8;
+  background-color: $mainColor;
 }
 
 button:active {
   opacity: 1;
+  border: 1px solid $mainTextColor;
 }
