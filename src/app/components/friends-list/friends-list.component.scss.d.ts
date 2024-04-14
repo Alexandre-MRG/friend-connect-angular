@@ -1,6 +1,8 @@
 export declare const backgroundColor: string;
 export declare const borderRadius: string;
 export declare const boxShadow: string;
+export declare const fadeIn: string;
+export declare const fadeOut: string;
 export declare const featureColorA: string;
 export declare const featureColorB: string;
 export declare const featureColorC: string;
@@ -8,6 +10,7 @@ export declare const featureColorD: string;
 export declare const friendCard: string;
 export declare const friendDescription: string;
 export declare const friendsListContainer: string;
+export declare const increaseSize: string;
 export declare const linkColor: string;
 export declare const mainColor: string;
 export declare const mainTextColor: string;

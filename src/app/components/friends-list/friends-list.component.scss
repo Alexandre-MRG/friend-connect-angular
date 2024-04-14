@@ -1,8 +1,8 @@
 @import "../../../styles/main.module.scss";
 
 .friends-list-container {
-  height: 670px; /* Set the desired height */
-  overflow-y: auto; /* Enable vertical scrolling if necessary */
+  height: 670px;
+  overflow-y: auto;
   border: 1px solid $secondaryBtnBorderColor;
   border-radius: $border-radius;
 }
@@ -38,5 +38,54 @@
   p,
   h3 {
     margin: 0;
+  }
+}
+
+// Hover animations friend-card
+.friend-card:hover {
+  animation-duration: 600ms;
+  animation-name: fadeIn;
+  background-color: darken($backgroundColor, 15%);
+}
+
+.friend-card:not(:hover) {
+  animation-duration: 600ms;
+  animation-name: fadeOut;
+}
+
+@keyframes fadeIn {
+  from {
+    background-color: $backgroundColor;
+  }
+  to {
+    background-color: darken($backgroundColor, 15%);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    background-color: darken($backgroundColor, 15%);
+  }
+  to {
+    background-color: $backgroundColor;
+  }
+}
+
+// Active animations friend-card image
+.friend-card img:active {
+  width: 100px;
+  height: 100px;
+  animation-name: increaseSize;
+  animation-duration: 200ms;
+}
+
+@keyframes increaseSize {
+  from {
+    width: 75px;
+    height: 75px;
+  }
+  to {
+    width: 100px;
+    height: 100px;
   }
 }

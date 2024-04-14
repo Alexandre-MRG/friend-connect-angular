@@ -8,9 +8,9 @@
 }
 
 .custom-spinner {
-  font-size: 48px; /* Adjust size as needed */
-  color: $mainColor; /* Spinner color */
-  animation: spin 1s infinite linear; /* Apply spin animation */
+  font-size: 48px;
+  color: $mainColor;
+  animation: spin 1s infinite linear;
 }
 
 @keyframes spin {
