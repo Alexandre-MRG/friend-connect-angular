@@ -13,7 +13,7 @@ section {
 .pageWrapper {
   display: flex;
   flex-direction: column;
-  row-gap: $spacing-l;
+  row-gap: $spacing-xs;
   max-width: 130em;
   margin: 0 auto;
 }

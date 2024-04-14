@@ -1,6 +1,7 @@
 // Colors
 $mainColor: #ff9900;
 $backgroundColor: #ffebce;
+$secondaryBackgroundColor: darken($backgroundColor, 15%);
 
 $mainTextColor: #2f281e;
 
@@ -29,6 +30,7 @@ $box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 :export {
   main-color: $mainColor;
   background-color: $backgroundColor;
+  $secondaryBackgroundColor: darken($backgroundColor, 15%);
 
   main-text-color: $mainTextColor;
   secondary-text-color: $secondaryTextColor;
