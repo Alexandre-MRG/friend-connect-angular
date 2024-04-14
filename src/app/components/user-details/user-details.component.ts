@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { User } from '../../models/user.model';
 import { UserDetailsService } from '../../services/user-details/user-details.service';
 import { CommonModule } from '@angular/common';
+import { CarouselComponent } from '../carousel/carousel.component';
 
 @Component({
   selector: 'app-user-details',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, CarouselComponent],
   templateUrl: './user-details.component.html',
   styleUrl: './user-details.component.scss'
 })
