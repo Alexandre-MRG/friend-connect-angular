@@ -1,6 +1,8 @@
 <div>
-  <h1>User Details</h1>
-  <div *ngIf="!user" class="user-details"></div>
+  <h1 class="user-details-header">User Details</h1>
+  <div *ngIf="!user" class="user-details">
+    <em><p>No user selected</p></em>
+  </div>
 </div>
 <div *ngIf="user" class="user-details">
   <div class="user-avatar">
@@ -55,7 +57,4 @@
       <app-google-map></app-google-map>
     </div>
   </app-carousel>
-</div>
-<div *ngIf="!user" class="no-user-selected">
-  <p>No user selected</p>
 </div>

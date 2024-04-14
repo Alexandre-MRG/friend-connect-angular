@@ -1,13 +1,14 @@
 <div class="card">
   <div class="card-header">
-    <h1>Profile</h1>
+    <h1>My Profile</h1>
   </div>
   <div class="card-body">
     <div *ngIf="currentUser">
     <div class="user-info">
-      <div>
+      <div class="avatar-container">
         <img [src]="currentUser.picture.large" alt="User Image">
       </div>
+      <br/>
       <div>
       <strong>Name:</strong> {{ currentUser.name.first }} {{ currentUser.name.last }}
       </div>

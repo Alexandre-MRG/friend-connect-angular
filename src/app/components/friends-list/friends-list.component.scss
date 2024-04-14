@@ -1,7 +1,12 @@
 @import "../../../styles/main.module.scss";
 
+.friends-list-header {
+  display: flex;
+  justify-content: center;
+}
+
 .friends-list-container {
-  height: 670px;
+  height: 80vh;
   overflow-y: auto;
   border: 1px solid $secondaryBtnBorderColor;
   border-radius: $border-radius;

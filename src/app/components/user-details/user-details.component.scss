@@ -1,5 +1,10 @@
 @import "../../../styles/main.module.scss";
 
+.user-details-header {
+  display: flex;
+  justify-content: center;
+}
+
 .user-details {
   display: flex;
   justify-content: center;
@@ -10,6 +15,7 @@
   background-color: $backgroundColor;
   box-shadow: $box-shadow;
   width: 500px;
+  height: 80vh;
 }
 
 .user-avatar img {

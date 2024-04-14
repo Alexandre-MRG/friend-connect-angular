@@ -1,9 +1,23 @@
 @import "../../../styles/main.module.scss";
 
+.card-header,
+.avatar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-body {
+  height: 80vh;
+}
+
 .user-info {
   background-color: $backgroundColor;
   border: 1px solid $secondaryBtnBorderColor;
   border-radius: $border-radius;
   padding: $spacing-s;
   box-shadow: $box-shadow;
+}
+
+.avatar-container img {
+  border-radius: 50%;
 }
