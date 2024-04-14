@@ -3,7 +3,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { User } from '../../models/user.model';
-import { UserService } from '../../services/user.service';
+import { UserService } from '../../services/user/user.service';
 
 @Component({
   selector: 'app-card',

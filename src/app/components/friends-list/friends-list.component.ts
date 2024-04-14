@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { UserService } from '../../services/user.service';
+import { Component, OnInit } from '@angular/core';
+import { UserService } from '../../services/user/user.service';
 import { User } from '../../models/user.model';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
@@ -12,7 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
   templateUrl: './friends-list.component.html',
   styleUrl: './friends-list.component.scss'
 })
-export class FriendsListComponent {
+export class FriendsListComponent implements OnInit{
   users: User[] = [];
   constructor(private userService: UserService) { }
 
