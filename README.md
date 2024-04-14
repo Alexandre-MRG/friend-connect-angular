@@ -21,17 +21,17 @@ To run this project locally, follow these steps:
 
 ## Key Features
 
-1. **Google Maps Integration:** Seamlessly integrates Google Maps API to display user locations and provide an interactive mapping experience.
+1. **User Friends List:** Display a scrollable list of selectable users in order to display user details.
   
 2. **User Details Component:** Utilizes a reusable component to display comprehensive details about each user, including their avatar, name, gender, date of birth, contact information, address, and timezone.
 
 3. **Loading Spinner:** Enhances user experience by adding a loading spinner when no data is available, providing visual feedback during data retrieval.
 
-5. **Carousel Component:** Implements a carousel component to present dynamic content, allowing users to navigate through different sections of user details effortlessly.
+4. **Carousel Component:** Implements a carousel component to present dynamic content, allowing users to navigate through different sections of user details effortlessly.
 
-6. **Google Map Component:** Incorporate a Google Map directly into the application interface.
+5. **Google Maps Integration:** Integrates Google Maps API to display user locations and provide an interactive mapping experience.
 
-7. **Code Quality and Project Structure:** Organizing project files with centralized style and conducting linting checks using ESLint.
+6. **Code Quality and Project Structure:** Organizing project files with centralized style and conducting linting checks using ESLint.
 
 ## Application Preview
 
