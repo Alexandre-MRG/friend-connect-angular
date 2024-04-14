@@ -1,6 +1,28 @@
 # friend-connect-angular
 An interactive Angular app for exploring and connecting with friends, integrating RandomUser API and Google Maps.
 
+## Key Features:
+
+1. **Google Maps Integration:** Seamlessly integrates Google Maps API to display user locations and provide an interactive mapping experience.
+  
+2. **User Details Component:** Utilizes a reusable component to display comprehensive details about each user, including their avatar, name, gender, date of birth, contact information, address, and timezone.
+
+3. **Loading Spinner:** Enhances user experience by adding a loading spinner when no data is available, providing visual feedback during data retrieval.
+
+5. **Carousel Component:** Implements a carousel component to present dynamic content, allowing users to navigate through different sections of user details effortlessly.
+
+6. **Google Map Component:** Incorporate a Google Map directly into the application interface.
+
+7. **Code Quality and Project Structure:** Organizing project files with centralized style and conducting linting checks using ESLint.
+
+## Technical Details:
+
+- **Framework:** Angular
+- **Third-party Libraries:** Google Maps API, Font Awesome
+- **Styling:** SCSS for enhanced styling and theming
+- **Linting:** ESLint for code quality checks and adherence to coding standards
+- **Version Control:** Git for version management and collaboration
+
 ## Installation
 
 You need to install [NodeJS](https://nodejs.org/en/download)
