@@ -5,6 +5,7 @@ export declare const featureColorA: string;
 export declare const featureColorB: string;
 export declare const featureColorC: string;
 export declare const featureColorD: string;
+export declare const fillParent: string;
 export declare const linkColor: string;
 export declare const mainColor: string;
 export declare const mainTextColor: string;
