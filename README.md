@@ -29,9 +29,11 @@ To run this project locally, follow these steps:
 
 4. **Carousel Component:** Implements a carousel component to present dynamic content, allowing users to navigate through different sections of user details effortlessly.
 
-5. **Google Maps Integration:** Integrates Google Maps API to display user locations and provide an interactive mapping experience.
+5. **Data Fetching:** Fetches user data from the RandomUser API for display.
 
-6. **Code Quality and Project Structure:** Organizing project files with centralized style and conducting linting checks using ESLint.
+6. **Google Maps Integration:** Integrates Google Maps API to display user locations and provide an interactive mapping experience.
+
+7. **Code Quality and Project Structure:** Organizing project files with centralized style and conducting linting checks using ESLint.
 
 ## Application Preview
 
