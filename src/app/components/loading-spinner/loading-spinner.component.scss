@@ -1,0 +1,23 @@
+@import "../../../styles/main.module.scss";
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.custom-spinner {
+  font-size: 48px; /* Adjust size as needed */
+  color: $mainColor; /* Spinner color */
+  animation: spin 1s infinite linear; /* Apply spin animation */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

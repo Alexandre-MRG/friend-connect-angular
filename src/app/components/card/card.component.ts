@@ -4,11 +4,12 @@ import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { User } from '../../models/user.model';
 import { UserService } from '../../services/user/user.service';
+import { LoadingSpinnerComponent } from '../loading-spinner/loading-spinner.component';
 
 @Component({
   selector: 'app-card',
   standalone: true,
-  imports: [CommonModule, HttpClientModule],
+  imports: [CommonModule, HttpClientModule, LoadingSpinnerComponent],
   providers: [UserService],
   templateUrl: './card.component.html',
   styleUrl: './card.component.scss'
