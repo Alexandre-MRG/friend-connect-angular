@@ -1,0 +1,42 @@
+<div>
+  <h1>User Details</h1>
+  <div *ngIf="!user" class="user-details"></div>
+</div>
+<div *ngIf="user" class="user-details">
+  <div class="user-avatar">
+    <img [src]="user.picture.large" alt="User Avatar">
+  </div>
+  <div class="user-info">
+    <h2>{{ user.name.title }} {{ user.name.first }} {{ user.name.last }}</h2>
+    <div class="user-details-row">
+      <strong><p>Gender:</p></strong>
+      <span>{{ user.gender }}</span>
+    </div>
+    <div class="user-details-row">
+      <strong><p>Date of Birth:</p></strong>
+      <span>{{ user.dob.date | date: 'mediumDate' }}</span>
+      <span> ( Age: {{ user.dob.age }} )</span>
+    </div>
+    <div class="user-details-row">
+      <strong><p>Email:</p></strong>
+      <span>{{ user.email }}</span>
+    </div>
+    <div class="user-details-row">
+      <strong><p>Phone:</p></strong>
+      <span>{{ user.phone }}</span>
+    </div>
+    <div class="user-details-row">
+      <strong><p>Address:</p></strong>
+      <span>{{ user.location.street.number }} {{ user.location.street.name }},</span>
+      <span>{{ user.location.city }}, {{ user.location.state }},</span>
+      <span>{{ user.location.country }}, {{ user.location.postcode }}</span>
+    </div>
+    <div class="user-details-row">
+      <strong><p>Timezone:</p></strong>
+      <span>{{ user.location.timezone.description }}</span>
+    </div>
+  </div>
+</div>
+<div *ngIf="!user" class="no-user-selected">
+  <p>No user selected</p>
+</div>

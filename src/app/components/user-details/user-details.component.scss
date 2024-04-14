@@ -1,0 +1,44 @@
+@import "../../../styles/main.module.scss";
+
+.user-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid $secondaryBtnBorderColor;
+  border-radius: $border-radius;
+  background-color: $backgroundColor;
+  box-shadow: $box-shadow;
+  width: 500px;
+}
+
+.user-avatar img {
+  padding-top: $spacing-s;
+  border-radius: 50%;
+}
+
+.user-info {
+  width: -webkit-fill-available;
+  padding: 0 $spacing-s $spacing-s $spacing-s;
+}
+
+.user-details-row {
+  margin-bottom: $spacing-xs;
+  background-color: $secondaryBackgroundColor;
+  border: 1px solid $secondaryBtnBorderColor;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  padding: $spacing-xs;
+  width: -webkit-fill-available;
+}
+
+.no-user-selected {
+  text-align: center;
+  margin-top: 50px;
+  font-style: italic;
+}
+
+p,
+h3 {
+  margin: 0;
+}
